@@ -5,7 +5,7 @@ worldborder set 3000
 execute in minecraft:the_nether run worldborder set 3000
 execute in minecraft:the_end run worldborder set 3000
 
-spreadplayers 0 0 300 1250 false @a
+spreadplayers 0 0 300 1499 false @a
 tag @a add teleported
 effect give @a minecraft:regeneration 1 255 true
 effect give @a minecraft:saturation 1 255 true
