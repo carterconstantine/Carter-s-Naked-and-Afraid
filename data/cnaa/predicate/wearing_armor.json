@@ -1,0 +1,49 @@
+{
+  "type": "minecraft:any_of",
+  "terms": [
+    {
+      "type": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "minecraft:slots": {
+          "armor.head": {
+            "items": "#minecraft:head_armor"
+          }
+        }
+      }
+    },
+    {
+      "type": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "minecraft:slots": {
+          "armor.chest": {
+            "items": "#minecraft:chest_armor"
+          }
+        }
+      }
+    },
+    {
+      "type": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "minecraft:slots": {
+          "armor.legs": {
+            "items": "#minecraft:leg_armor"
+          }
+        }
+      }
+    },
+    {
+      "type": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "minecraft:slots": {
+          "armor.feet": {
+            "items": "#minecraft:foot_armor"
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+execute as @a if predicate cnaa:wearing_armor run effect give @s wither 1 255 true

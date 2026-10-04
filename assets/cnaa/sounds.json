@@ -1,0 +1,10 @@
+{
+  "events.cannon": {
+    "sounds": [
+      {
+        "name": "cnaa:events/cannon",
+        "volume": 1
+      }
+    ]
+  }
+}

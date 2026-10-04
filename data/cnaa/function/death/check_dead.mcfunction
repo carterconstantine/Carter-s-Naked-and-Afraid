@@ -1,0 +1,1 @@
+execute if score @s cnaa_deaths matches 1 at @s run function cnaa:death/on_death
