@@ -1,5 +1,3 @@
-spreadplayers 0 0 0 8 false @a
-
 worldborder set 16
 time rate 0.33
 time set 0
