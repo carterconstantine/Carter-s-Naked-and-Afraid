@@ -20,4 +20,4 @@ execute if score &timer cnaa_timer = &4_second_warning cnaa_timer as @a at @s ru
 execute if score &timer cnaa_timer = &3_second_warning cnaa_timer as @a at @s run function cnaa:timer/warning {text:"<Game Master> 3.", color:dark_red, sound:ui.button.click, pitch:1.4}
 execute if score &timer cnaa_timer = &2_second_warning cnaa_timer as @a at @s run function cnaa:timer/warning {text:"<Game Master> 2.", color:dark_red, sound:ui.button.click, pitch:1.6}
 execute if score &timer cnaa_timer = &1_second_warning cnaa_timer as @a at @s run function cnaa:timer/warning {text:"<Game Master> 1.", color:dark_red, sound:ui.button.click, pitch:1.8}
-execute if score &timer cnaa_timer = &session_end cnaa_timer as @a at @s run function cnaa:timer/session_end
+execute if score &timer cnaa_timer = &session_end cnaa_timer run function cnaa:timer/session_end

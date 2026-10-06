@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " X ",
+    "Y#Z",
+    " W "
+  ],
+  "key": {
+    "X": [
+      "minecraft:wind_charge"
+    ],
+    "Y": [
+      "minecraft:prismarine_shard"
+    ],
+    "Z": [
+      "minecraft:echo_shard"
+    ],
+    "W": [
+      "minecraft:blaze_powder"
+    ],
+    "#": [
+      "minecraft:ender_pearl"
+    ]
+  },
+  "result": {
+    "id": "minecraft:ender_eye"
+  }
+}
