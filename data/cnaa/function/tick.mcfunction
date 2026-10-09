@@ -8,3 +8,5 @@ execute unless score &first_started cnaa_core matches 1 as @a run function cnaa:
 execute if score &countdown cnaa_core matches 1 as @a at @s run function cnaa:timer/actionbar
 
 execute if predicate cnaa:time_0 run tag @a remove slept
+
+execute as @a run function cnaa:hunger/check_hunger

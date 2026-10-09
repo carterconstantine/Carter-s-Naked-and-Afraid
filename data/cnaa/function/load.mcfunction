@@ -2,6 +2,8 @@ scoreboard objectives add cnaa_core dummy
 scoreboard objectives add cnaa_deaths deathCount
 scoreboard objectives add cnaa_timer dummy
 scoreboard objectives add cnaa_heart_debuff dummy
+scoreboard objectives add cnaa_health health
+scoreboard objectives add cnaa_food food
 
 execute unless score &loaded cnaa_core matches 1 run function cnaa:first_load
 scoreboard players set &loaded cnaa_core 1
