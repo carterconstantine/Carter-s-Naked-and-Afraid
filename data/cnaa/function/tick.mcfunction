@@ -6,3 +6,5 @@ execute if score &first_started cnaa_core matches 1 as @a[tag=!teleported] run f
 execute unless score &first_started cnaa_core matches 1 as @a run function cnaa:misc/pre_session_effects
 
 execute if score &countdown cnaa_core matches 1 as @a at @s run function cnaa:timer/actionbar
+
+execute if predicate cnaa:time_0 run tag @a remove slept

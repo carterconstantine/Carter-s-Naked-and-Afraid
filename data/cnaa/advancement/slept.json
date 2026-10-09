@@ -1,0 +1,10 @@
+{
+  "criteria": {
+    "sleeping": {
+      "trigger": "minecraft:slept_in_bed"
+    }
+  },
+  "rewards": {
+    "function": "cnaa:health/slept"
+  }
+}
