@@ -1,4 +1,4 @@
 execute if entity @p[distance=0.01..15, gamemode=!spectator] run title @s[gamemode=!spectator] actionbar {color:green, text:"You feel well accompanied."}
 execute if entity @p[distance=15.01..250, gamemode=!spectator] run title @s[gamemode=!spectator] actionbar {color:yellow, text:"You feel a little lonely."}
-execute if entity @p[distance=100.01..500, gamemode=!spectator] run title @s[gamemode=!spectator] actionbar {color:red, text:"You feel very lonely."}
+execute if entity @p[distance=250.01..1000, gamemode=!spectator] run title @s[gamemode=!spectator] actionbar {color:red, text:"You feel very lonely."}
 execute unless entity @p[distance=0.01..1000, gamemode=!spectator] run title @s[gamemode=!spectator] actionbar {color:dark_red, text:"You feel EXTREMELY lonely."}
